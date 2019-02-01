@@ -1,0 +1,20 @@
+/*
+Theme Name: My Theme
+Theme URI: https://mytheme.io
+Author: Randy Ferrer
+AuthorURI: https://mytheme.io
+Description: Basic WP theme for class
+Text Domain: simple
+Version: 0.0.1
+License: MIT License
+*/
+
+body.logged-in.admin-bar #mainNav {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  body.logged-in.admin-bar #mainNav {
+    margin-top:46px;
+  }
+}
